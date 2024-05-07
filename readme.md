@@ -11,4 +11,6 @@ receive them. Moreover, the server could also tell us which client it received a
 # Reflection 2.2
 When modifying the port to be 8080, on the server-side, the main function needs to be updated, more specifically the listening port. Moreover, after updating the server-side code, it is also important to update the client-side code to ensure that it connects to the same port. For the communication to work, the protocol being used is located in tokio::websockets, more specifically the client builder and server builder. After updating the port for both client-side and server-side code, the program should be able to properly listen to the same port, hence ensuring smooth communication between client and server.
 
+# Reflection 3.3
+![alt text](image.png)
 
